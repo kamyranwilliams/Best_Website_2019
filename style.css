@@ -23,23 +23,31 @@ body {
 
 .orange {
 	background-color: #EA6626;
-	height: 150px;
-	width: 150px;
 }
 
 .box {
-	height: 100px;
-	width: 100px;
+	height: 100%;
+	width: calc(100%/3);
+	
 	
 }
 
-
+.row {
+	display: flex;
+	height: 50%;
+	width: 50%;
 	
 }
+	
+.lorow {
+display: flex
+height: 50%
+width:100%
 
+}
 /*
 .row {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 }
 */
